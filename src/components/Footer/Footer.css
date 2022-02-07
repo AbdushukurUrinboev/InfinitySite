@@ -1,0 +1,86 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  .backSite{
+      background-color: #FEF8F1;
+      height: 80vh;
+      /* background-image: url(/src/assets/logotip.png); */
+      background-repeat: no-repeat;
+      background-size: 70%;
+      margin-bottom: 0px;
+      
+  }
+  
+  .headLine{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  }
+  
+  
+  .smallTexts{
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #233249;
+  opacity: 0.5;
+  }
+  
+  
+  .firstIcon{
+      font-size: 20px;
+  }
+  .inlinedIcons{
+      margin-left: 20px;
+      color: black;
+      font-size: 20px;
+  }
+  .firstInlinedIcons{
+      color: black;
+      font-size: 20px;
+  }
+  
+  .styleToPosition{
+      /* border: 1px solid rgb(0, 255, 13); */
+      position: relative;
+      top: -300px;
+  }
+  
+  .footerLine{
+      border: 1px solid #D1D5DB;
+      position: relative;
+      top: -200px;
+  }
+  .lastFooterRow{
+    
+      position: relative;
+      top: -180px;
+  }
+  .telNumber{
+      position: absolute;
+      right: 0px;
+     
+  }
+  .toFindBorder{
+     
+      border-right: 2px solid #D1D5DB;
+      
+  }
+  .toFindBorder > img{
+     width: 85%;
+   
+  }
+                        
+  .footerInfinity{
+      font-size: 25px;
+      font-weight: bold;
+  
+  }
+  
+  .rotatedLogo{
+      transform: rotate(-17.69deg);
+  }
