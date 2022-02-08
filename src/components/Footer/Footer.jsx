@@ -1,7 +1,7 @@
 import react from "react";
 import './Footer.css';
-import grouplogo from '../../../public/Img/Footer/logoInfinity.png'
-import logotip from '../../../public/Img/Footer/logotip.png'
+import grouplogo from '../../public/Img/Footer/logoInfinity.png'
+import logotip from '../../public/Img/Footer/logotip.png'
 
 function Footer() {
     return(
