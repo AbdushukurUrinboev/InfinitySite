@@ -5,9 +5,10 @@ import AsosiyYunalishlar from "./components/AsosiyYunalish/AsosiyYunalishlar";
 import NegaAynanBiz from "./components/NegaAynanBiz/NegaAynanBiz";
 import Gallereya from "./components/Gallereya/Gallereya";
 import Footer from "./components/Footer/Footer";
+
 function App() {
     return (
-        <div> 
+        <div>                        
             <Header />
             <AsosiyYunalishlar />
             <NegaAynanBiz />
