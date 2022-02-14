@@ -1,34 +1,20 @@
-
-
-.toGallerySize{
-  font-size: 24px;
- margin-left: 12%;
-  }
-
-.colntrolContainer{
-  width: 80%;
-  margin-left: 10% !important;
-}
-
-.forColor{
-  /* border: 1px solid red; */
-  width: 250px;
-  height: 220px;
-  align-items: center;
- 
-  
+.exraPadding{
+  padding-bottom: 3%;
 }
 .firstPicture{
-  width: 548px;
-  height: 220px;
-
-  
+  width: 100%;
 }
-
-.exraPadding{
-  /* border: 1px solid red; */
-  text-align: center;
-  padding: 2%;
+.secondPic{
+  width: 100%;
+}
+.thirdPic{
+  width: 100%;
+}
+.fourthPic{
+  width: 100%;
+}
+.fifthPic{
+  width: 100%;
 }
 
 

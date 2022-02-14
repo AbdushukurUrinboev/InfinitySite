@@ -1,11 +1,19 @@
 
-.backSite{
-    background-color: #FEF8F1;
-    margin-bottom: 0px !important; 
-    margin-bottom: -210px;
+footer{
   
+    background-image: url(/src/assets/rotatedLogo.png);
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+    background-color: #FEF8F1; 
+    width: 100%;
+    position: relative;
+    bottom: 0;
+   
     
-}
+    font-size: 20px;
+  ;
+       
+} 
 
 .headLine{
 font-style: normal;
@@ -39,46 +47,32 @@ opacity: 0.5;
     font-size: 20px;
 }
 
-.styleToPosition{
-    /* border: 1px solid rgb(0, 255, 13); */
-    margin-top: -25% !important;
-}
+
 
 .footerLine{
-    border: 1px solid #D1D5DB;
-   
-}
-
-.telNumber{
-   
-    text-align: right;
-   
-}
-.toFindBorder{   
-    border-right: 2px solid #D1D5DB;   
-}
-
-                      
+    border-right: 3px solid #D1D5DB;
+ }
+                     
 .footerInfinity{
     font-size: 25px;
     font-weight: bold;
 
 }
 .logoImage{
-    width: 80%;
-    height: 80%;
+    width: 70px;
+    height: 40px;
+}
+.rowContainer{
+    margin-top: 5% !important;
+    margin-bottom: 2% !important;
 }
 
-.rotatedLogo{
-  
-    width: 450px;
-    height: 250px;
+
+  .footerNumber{
     position: relative;
-    top: 145px;
-    margin-bottom: 10% !important;
-    
-}
-
-.footerEnd{
-    opacity: 0.99;
-}
+    left: 70%;
+  }
+  .footerWords{
+      position: absolute;
+      left: 18%;
+  }
