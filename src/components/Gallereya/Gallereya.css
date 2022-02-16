@@ -17,5 +17,12 @@
   width: 100%;
 }
 
-
-
+.toGallerySize
+{
+  margin-top: 106px;
+  font-style: bold !important;
+  font-size: 24px !important;
+  line-height: 100% !important;
+  align-items: left !important;
+  vertical-align: top !important;
+}

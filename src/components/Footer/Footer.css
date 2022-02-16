@@ -1,14 +1,18 @@
-
+.containerWrapper
+{
+    width: 100% !important;
+    background: #FEF8F1;
+}
 footer{
   
-    background-image: url(/src/assets/rotatedLogo.png);
+    background-image: url(../../assets/rotatedLogo.png  );
     background-repeat: no-repeat;
     background-size: 40% 100%;
     background-color: #FEF8F1; 
     width: 100%;
     position: relative;
+    margin-top: 196px;
     bottom: 0;
-   
     
     font-size: 20px;
   ;
@@ -56,7 +60,6 @@ opacity: 0.5;
 .footerInfinity{
     font-size: 25px;
     font-weight: bold;
-
 }
 .logoImage{
     width: 70px;
@@ -68,11 +71,10 @@ opacity: 0.5;
 }
 
 
-  .footerNumber{
-    position: relative;
-    left: 70%;
-  }
-  .footerWords{
-      position: absolute;
-      left: 18%;
-  }
+.footerNumber{
+  position: relative;
+  left: 70%;
+}
+.footerWords{
+    left: 18%;
+}

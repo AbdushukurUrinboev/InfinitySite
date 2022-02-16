@@ -1,0 +1,55 @@
+.mainLineBasicTheme
+{
+    margin-top: 204px;
+    font-style: bold;
+    font-size: 24px;
+    line-height: 100%;
+    align-items: left;
+    vertical-align: top;
+}
+.noneBorderMainLine
+{
+    border: none !important;
+}
+.mainLineFirstCard
+{
+    height:256px;
+    border-radius: 10px;
+    border: 1px solid #D1D5DB;
+    text-align: inside;
+    margin-top: 47px;
+    background-color: #FFFFFF;
+    color: rgba(1, 4, 9, 1);
+}
+
+.mainLineFirstCard :hover
+{
+    background-color: #E79215;
+    color: #FFFFFF;
+}
+
+.mainLineProgramming
+{
+    margin-left: 45px;
+    font-size: 44px;
+    font-style: medium;
+    align-items: left;
+    vertical-align: top;
+}
+.mainLineCourses
+{
+    margin-left: 45px;
+    font-style: medium;
+    font-size: 18px;
+    vertical-align: top;
+    opacity: 60%;
+}
+.mainLineView
+{
+    margin-left: 45px;
+    font-style: medium;
+    font-size: 22px;
+    vertical-align: top;
+    color: #3082FF;
+    cursor: pointer;
+}

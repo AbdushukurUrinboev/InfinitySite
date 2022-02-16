@@ -1,0 +1,156 @@
+.basicNameForWhyExactlyUsFile
+{
+    margin-top: 200px;
+    margin-bottom: 106px;
+    font-size: 1.5rem;
+}
+
+.colForWhyExactlyUs
+{
+    margin-top: 106px;
+}
+
+.circleOutWhyExactlyUs
+{
+    margin-top: -15%;
+    width:331px;
+    height:316px;
+    border: 1px solid #E79215;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.circleIntoWhyExactlyUs
+{
+    width:290.77px;
+    height:303.69px;
+    margin-top: 5px;
+    margin-left: 39px;
+    background-color: #E79215;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+}
+
+.whyExactlyUsCup
+{
+    margin-left: 4%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+
+    letter-spacing: 0.0168em;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #000000;
+}
+
+.whyExactlyUsIcons
+{
+    margin-top: 45px;
+}
+
+.circleOutWhyExactlyUs .circleIntoWhyExactlyUs img
+{
+    margin-top: -13%;
+    border-radius: 50%;
+    width: 290.77px;
+    height: 343.69px;
+}
+.circleOutWhyExactlyUsWrapperForResponsive
+{
+    margin-top: -10% !important;
+}
+
+.whyExactlyUsButton
+{
+    color: black !important;
+    margin-bottom: 45px !important;
+}
+
+.whyExactlyUsDotsAll
+{
+    margin-top: -93%;
+    margin-left: 81%;   
+    opacity: 0.3;
+}
+.whyExactlyUsDotsAllInto
+{
+    margin-left: -16% !important;
+    margin-top: 34px !important;
+    display: inline-block !important;
+}
+.whyExactlyUsDotsAllIntoSecond
+{
+    margin-bottom: -100px;
+    z-index: -5 !important;
+    margin-top: 9px !important;
+    position: absolute;
+    margin-left: -52px !important;
+    display: inline-block !important;
+}
+
+.whyExactlyUsDotsAllIntoSecond1
+{
+    margin-bottom: -100px;
+    z-index: -5 !important;
+    margin-top: 18px !important;
+    position: absolute;
+    margin-left: -52px !important   ;
+    display: inline-block !important;
+}
+
+.whyExactlyUsDotsAllIntoSecond2
+{
+    margin-bottom: -100px;
+    z-index: -5 !important;
+    margin-top: 27px !important;
+    position: absolute;
+    margin-left: -52px !important;
+    display: inline-block !important;
+}
+
+.whyExactlyUsDotsAllIntoSecond3
+{
+    margin-bottom: -100px;
+    z-index: -5 !important;
+    margin-top: 36px;
+    position: absolute;
+    margin-left: -52px !important;
+    display: inline-block !important;
+}
+
+.whyExactlyUsDotsAllIntoFirst img
+{
+    width: 5px;
+    height: 5px;
+    margin-top: 0%;
+    background: #E79215;
+    border-radius: 50%;
+    transform: rotate(-180deg);
+    background: #E79215;
+
+}
+
+.whyExactlyUsDotsAllIntoOthers img
+{
+    width: 5px;
+    height: 5px;
+    margin-top: 0%;
+    margin-left: -17px;
+    border-radius: 50%;
+    background: #E79215;
+    transform: rotate(-180deg);
+}
+
+
+/* Media start */
+
+@media (min-width: 600px) {
+    .circleOutWhyExactlyUsForResponsive
+    {
+        margin-top: 20% !important;
+    }
+}
+
+/* Media finished */
