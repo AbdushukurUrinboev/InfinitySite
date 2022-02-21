@@ -50,7 +50,7 @@ function Header() {
                                                 <a className="nav-link headerText contactUsHeader" href="#">Aloqa</a>
                                             </li>
                                         </ul>
-                                        <button className='applyBtn ' type='submit'>Apply</button>
+                                        <button className='applyBtn ' type='submit'>Royhatdan o'tish</button>
                                     </div>
                                 </div>
                             </nav>
