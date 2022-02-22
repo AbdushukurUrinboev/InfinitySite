@@ -1,13 +1,16 @@
-@font-face {
-    font-family: InfinityLogoFonts;
-    src: url('../../assets/Fonts/PTMono-Regular.ttf')
-  }  
-  .homePage 
-  {
-    background-image: url('../../assets/bg_image.png');
-    /* background-image: url('../../assets/bg_image.png'); */
-    background-size: cover;
-  }
+        @font-face {
+      font-family: Gilroy;
+      src: url('../../assets/Fonts/Radomir\ Tinkov\ -\ Gilroy-Light.otf');
+    }
+    @font-face {
+      font-family: PTmono;
+      src: url('../../assets/Fonts/PTMono-Regular.ttf');
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+    }
     
     .navbar-ul {
       height: 100%;
@@ -32,7 +35,7 @@
     }
     
     .homePage{
-      /* background-image: url(../../assets//Vector178.png); */
+      background-image: url(../../assets/Vector178.png);
       /* background-image: url(./images/bg_image.png); */
       /* background-size: cover; */
       background-repeat: no-repeat;
@@ -41,7 +44,7 @@
     .bgImgHomePage1{
       width: 419.43px;
       height: 564.76px;
-      background-image: url(../../assets//Vector178.png);
+      /* background-image: url(./images/Vector178.png); */
       background-repeat: no-repeat;
       margin-top: -9%;
       margin-left: -11%;
@@ -50,20 +53,18 @@
     .bgImgHomePage2{
       width: 1439px;
       height: 340px;
-      background-image: url(../../assets/Ellipse17.png);
+      /* background-image: url(./images/Ellipse17.png); */
       background-repeat: no-repeat;
-      margin-top: -43%;
+      margin-top: -8%;
     }
     .bgImgHomePage3{
       width: 1045px;
       height: 955px;
       margin-left: 30.2%;
       margin-top: -26.2%;
-      background-image: url(../../assets/Ellipse15.png);
+      /* background-image: url(./images/Ellipse15.png); */
       background-repeat: no-repeat;
     }
-    
-   
     
     .navbarHeader{
       margin-top: 3%;
@@ -83,34 +84,12 @@
     }
     
     .infinityLogo{
-      width: 48px !important;
-      height: 21.58px;
-      margin-top: -115%;
-      margin-left: 88%;
+      width: 275px;
+      height: 55px;
+      margin-top: -63%;
+      margin-left: 155%;
     }
     
-    .vector1Header{
-      width: 0px;
-      height: 49.49px;
-      opacity: 0.2;
-      border: 1.52273px solid #333333;
-      background: #333333;
-      margin-top: -1%;
-      margin-left: 23%;
-    }
-    
-    .infinityText{
-    width: 161.41px;
-    height: 39.59px;
-    margin-top: -8%;
-    margin-left: 25%;
-    font-family: InfinityLogoFonts !important;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 33.5px;
-    line-height: 40px;
-    color: #333333;
-    }
     .coursesHeader{
       font-family: Gilroy;
       font-style: normal;
@@ -162,6 +141,10 @@
       cursor: pointer;
     }
     
+    .applyBtnLi{
+      margin-left: 50%;
+      margin-top: -2%;
+    }
     .applyBtn{
       font-family: Gilroy;
       font-style: normal;
@@ -183,6 +166,10 @@
       transition: 0.5s;
     }
     
+    .mainPageHeader{
+      margin-top: 30%;
+    }
+    
     .carouselHeaderText{
       width: 718px;
       margin-top: -30%;
@@ -193,39 +180,45 @@
     }
     
     .mainPageImage{
-      margin-top: -25%;
+      margin-top: -33%;
       margin-left: -5% !important;
     }
     
     .imgBgVector{
       width:501px;
       height:501px;
-      margin-left: 110%;
+      margin-left: 115%;
       z-index: 22 !important;
     }
-    
+    .imgHomePage{
+      width: 587px;
+      height: 519px;
+    }
+    .carousel-caption{
+      text-align: start !important;
+    }
     .carousell{
       width: 718px;
       margin-top: 22%;
-      margin-left: -15%;
+      margin-left: -2%;
       color: #333333;
       font-family: Gilroy;
       font-style: normal;
       font-weight: 600;
-      font-size: 60px;
+      font-size: 55px;
       line-height: 92px;
     }
     .carouselInner{
       margin-top: 10%;  
     }
     .carouselInner > .mainPageBtnHeader{
-      width: 184px;
+      width: 140px;
       height: 54px;
       color: #333333;
       background: #FFFFFF;
       border: 1px solid #E79215;
       margin-top: 250px;
-      margin-left: 7%;
+      margin-left: 14% !important;
       box-sizing: border-box;
       border-radius: 4px;
       cursor: pointer !important;
@@ -236,19 +229,27 @@
       color: #FFFFFF !important;
       transition: 0.5s;
     }
+    /* .carouselCircle{
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      border: 1px solid #E79215;
+      box-sizing: border-box;
+    } */
+    
     .carouselDot{
       width: 8px !important;
       height: 8px !important;
       background: #233249;
       border-radius: 50%;
-      /* margin-left: 30% !important; */
     }
-  
     
     .carousel-indicators{
       width: 150px;
-      margin-left: 45% !important;
+      margin-left: 35% !important;
+      margin-bottom: 13px ;
     }
+    
     .pHeader{
       width: 718px;
       height: 200px;
@@ -334,22 +335,18 @@
         max-width: 1320px;
       }
       .infinityLogo {
-        width: 63.63px;
-        height: 21.58px;
-        margin-top: -115%;
+        width: 275px;
+        height: 55px;
+        margin-top: -60%;
         margin-left: 88%;
-      }
-      .infinityText {
-        margin-top: -9%;
-        margin-left: 28%;
-      }
-    .vector1Header {
-        margin-top: -1%;
-        margin-left: 25.2%;
       }
       .headerDropUl{
         margin-top: 5% !important;
         margin-left: 0%;
+      }
+      .applyBtnLi {
+        margin-top: -2%;
+        margin-left: 40%;
       }
     }
     
@@ -358,18 +355,10 @@
         max-width: 1140px;
       }
       .infinityLogo {
-        width: 63.63px;
-        height: 21.58px;
-        margin-top: -120%;
+        width: 275px;
+        height: 55px;
+        margin-top: -55%;
         margin-left: 70%;
-      }
-      .infinityText {
-        margin-top: -11%;
-        margin-left: 33%;
-      }
-      .vector1Header {
-        margin-top: -1%;
-        margin-left: 29.2%;
       }
       .navbarMedia{
         margin-left: -15%;
@@ -383,7 +372,7 @@
       }
       .mainPageImage {
         margin-top: 10%;
-        margin-left: -36% !important;
+        margin-left: -39% !important;
       }
       .headerDropUl{
         margin-top: 5% !important;
@@ -416,6 +405,9 @@
     }
     
     @media screen and (max-width: 992px){
+      .navbarMain{
+        margin-left: 5%;
+      }
       .headerContainer {
         max-width: 960px;
       }
@@ -423,32 +415,31 @@
         margin-top: 5% !important;
         margin-left: 0%;
       }
+      
       .contactUsHeader{
         margin-top: 8%;
       }
+      .applyBtnLi {
+        margin-top: 5%;
+        margin-left: 2%;
+    }
       .imgBgVector{
         width:501px;
         height:501px;
         margin-top: 30%;
+        margin-left: 110%;
         z-index: 22 !important;
       }
-      .vector1Header {
-        margin-left: 43%;
-        margin-top: 6%;
-      }
-      .infinityText {
-        margin-top: -16%;
-        margin-left: 50%;
-      }
       .infinityLogo {
-        width: 63.63px;
-        height: 21.58px;
-        margin-top: -125%;
+        width: 275px;
+        height: 55px;
+        margin-top: -35%;
       }
       .pHeader {
         width: 671px;
         height: 245px;
         margin-bottom: -6rem !important;
+        margin-left: 10%;
       }
       .mainPageImage {
         margin-top: 15%;
@@ -456,21 +447,21 @@
       }
       .carousell {
         width: 650px;
-        margin-top: 22%;
-        margin-left: -25%;
+        margin-top: 25%;
         color: #333333;
         font-family: Gilroy;
         font-style: normal;
         font-weight: 600;
         font-size: 50px;
         line-height: 100px;
-        margin-left: -11%;
+        margin-left: -7%;
       }
       .carousel-indicators {
-        margin-left: 60% !important;
+        margin-left: 55% !important;
       }
       .carouselInner > .mainPageBtnHeader {
-        margin-left: 30%;
+        margin-left: 30% !important
+        ;
       }
       .headerText{
         font-size: 35px;
@@ -478,9 +469,6 @@
       }
       .applyBtn {
         margin-left: 1%;
-      }
-      .carouselInner > .mainPageBtnHeader {
-        margin-left: 15%;
       }
       .aboutUsHeader {
         line-height: 28px;
@@ -491,17 +479,9 @@
       .headerContainer {
         max-width: 720px;
       }
-      .vector1Header {
-        margin-left: 43%;
-        margin-top: 6%;
-      }
-      .infinityText {
-        margin-top: -16%;
-        margin-left: 50%;
-      }
       .infinityLogo {
-        width: 63.63px;
-        height: 21.58px;
+        width: 275px;
+        height: 55px;
         margin-top: -125%;
       }
       .pHeader {
