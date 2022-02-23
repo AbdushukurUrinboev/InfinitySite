@@ -35,34 +35,8 @@
     }
     
     .homePage{
-      background-image: url(../../assets/Vector178.png);
-      /* background-image: url(./images/bg_image.png); */
-      /* background-size: cover; */
-      background-repeat: no-repeat;
-    }
-    
-    .bgImgHomePage1{
-      width: 419.43px;
-      height: 564.76px;
-      /* background-image: url(./images/Vector178.png); */
-      background-repeat: no-repeat;
-      margin-top: -9%;
-      margin-left: -11%;
-      position: unset;
-    }
-    .bgImgHomePage2{
-      width: 1439px;
-      height: 340px;
-      /* background-image: url(./images/Ellipse17.png); */
-      background-repeat: no-repeat;
-      margin-top: -8%;
-    }
-    .bgImgHomePage3{
-      width: 1045px;
-      height: 955px;
-      margin-left: 30.2%;
-      margin-top: -26.2%;
-      /* background-image: url(./images/Ellipse15.png); */
+      background-image: url(../../assets/headerBg.png);
+      background-size: cover;
       background-repeat: no-repeat;
     }
     
@@ -152,7 +126,7 @@
       font-size: 16px;
       line-height: 20px;
       color: #FFFFFF;
-      width: 140px;
+      width: 184px;
       height: 54px;
       background: #E79215;
       border-radius: 4px;
@@ -196,6 +170,7 @@
     }
     .carousel-caption{
       text-align: start !important;
+      margin-left: -1% !important;
     }
     .carousell{
       width: 718px;
@@ -212,7 +187,7 @@
       margin-top: 10%;  
     }
     .carouselInner > .mainPageBtnHeader{
-      width: 140px;
+      width: 184px;
       height: 54px;
       color: #333333;
       background: #FFFFFF;
@@ -246,7 +221,7 @@
     
     .carousel-indicators{
       width: 150px;
-      margin-left: 35% !important;
+      margin-left: 40% !important;
       margin-bottom: 13px ;
     }
     
