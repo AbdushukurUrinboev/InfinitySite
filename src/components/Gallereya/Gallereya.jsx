@@ -11,14 +11,20 @@ function Gallereya() {
 
     <div className="container">
       <p className='toGallerySize'>Bizning Gallery</p>
+      <div className="innerText">
+            <p className="cardText">Lorem, ipsum dolor sit amet consectetur 
+              adipisicing elit. Blanditiis sequi laudantium
+               fugiat modi dignissimos quis. welcome to out site
+            </p>
+        </div>
       <div className="row row-cols-2 row-cols-lg-3">
         <div className="col-12 col-lg-8 exraPadding" >
-          <div className=''>
             <img className='firstPicture' src={firstPic} alt="Bu joyda rasm bor!" />
-          </div>
+            
+          
         </div>
         <div className="col-6 col-lg-4">
-
+         
           <img className='secondPic' src={secondPic} alt="Bu joyda rasm bor!" />
 
         </div>

@@ -2,20 +2,22 @@
 {
     width: 100% !important;
     background: #FEF8F1;
+   
 }
 footer{
   
-    background-image: url(../../assets/rotatedLogo.png  );
+    background-image: url(../../assets/InfinitySymbol.svg  );
     background-repeat: no-repeat;
-    background-size: 40% 100%;
+    background-position: -270px;
     background-color: #FEF8F1; 
     width: 100%;
+    height: 500px;
     position: relative;
-    margin-top: 196px;
+    margin-top: 180px;
     bottom: 0;
+    /* border: 1px solid red; */
     
-    font-size: 20px;
-  ;
+  
        
 } 
 
@@ -38,43 +40,23 @@ opacity: 0.5;
 }
 
 
-.firstIcon{
-    font-size: 20px;
-}
-.inlinedIcons{
-    margin-left: 20px;
-    color: black;
-    font-size: 20px;
-}
-.firstInlinedIcons{
-    color: black;
-    font-size: 20px;
-}
+.footerIcons{
 
-
-
-.footerLine{
-    border-right: 3px solid #D1D5DB;
- }
-                     
-.footerInfinity{
-    font-size: 25px;
-    font-weight: bold;
+    margin-right: 10%;
 }
-.logoImage{
-    width: 70px;
-    height: 40px;
-}
+                
 .rowContainer{
-    margin-top: 5% !important;
+    margin-top: 8% !important;
     margin-bottom: 2% !important;
 }
 
 
-.footerNumber{
+ .footerNumber{
   position: relative;
-  left: 70%;
+  left: 80%;
+  top: 40px;
 }
 .footerWords{
-    left: 18%;
+    position: relative;
+    top: 40px;
 }
