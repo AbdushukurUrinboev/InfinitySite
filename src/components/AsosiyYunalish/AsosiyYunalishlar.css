@@ -1,6 +1,6 @@
 .mainLineBasicTheme
 {
-    margin-top: 204px;
+    /* margin-top: 204px; */
     font-style: bold;
     font-size: 24px;
     line-height: 100%;
@@ -19,7 +19,7 @@
     text-align: inside;
     margin-top: 47px;
     background-color: #FFFFFF;
-    color: rgba(1, 4, 9, 1);
+    color: #010409;
 }
 
 .mainLineFirstCard :hover
@@ -30,20 +30,28 @@
 
 .mainLineProgramming
 {
+    margin-top: 40px;
     margin-left: 45px;
+    font-style: normal;
+    font-weight: normal;
     font-size: 44px;
-    font-style: medium;
-    align-items: left;
-    vertical-align: top;
+    line-height: 53px;
 }
 .mainLineCourses
 {
     margin-left: 45px;
-    font-style: medium;
+    margin-top: -5px;
+    font-style: normal;
+    font-weight: normal;
     font-size: 18px;
-    vertical-align: top;
-    opacity: 60%;
+    line-height: 22px;
+    /* identical to box height */
+    
+    color: #010409;
+    
+    opacity: 0.6;
 }
+
 .mainLineView
 {
     margin-left: 45px;
@@ -52,4 +60,9 @@
     vertical-align: top;
     color: #3082FF;
     cursor: pointer;
+}
+
+.mainLineView:hover
+{
+    text-decoration-line: underline !important;
 }
