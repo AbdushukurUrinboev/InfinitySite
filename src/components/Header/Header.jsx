@@ -52,10 +52,6 @@ return(
             </nav>
           </div>
 
-          {/* <div className="bgImgHomePage1"></div> */}
-          {/* <div className="bgImgHomePage2"></div> */}
-          {/* <div className="bgImgHomePage3"></div> */}
-
           <div className="mainPageHeader">
             <div className="col-6 headerCarousel ">
               <div id="carouselExampleDark" className="carousel carousel-dark slide carouselHeaderText" data-bs-ride="carousel">
@@ -76,7 +72,7 @@ return(
                  <div className="carousel-inner carouselInner ">
                    <div className="carousel-item active carousell" data-bs-interval="10000">
                      <div className="carousel-caption d-none d-md-block">
-                       <p className='pHeader'>Zamonaviy kasblarni biz bilan o'rganing</p>
+                       <p className='pHeader'>We change lives thorugh education</p>
                      </div>
                    </div>
                    <div className="carousel-item carousell" data-bs-interval="2000">
