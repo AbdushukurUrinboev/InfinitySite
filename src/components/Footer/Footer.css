@@ -58,6 +58,9 @@ color: #233249;
 opacity: 0.5;
 }
 
+.footerLogoPage{
+  margin-left: 5%;
+}
 
 .footerIcons{
   margin-right: 10%;
@@ -69,7 +72,7 @@ opacity: 0.5;
 }
  .footerNumber{
   position: relative;
-  left: 65%;
+  left: 62%;
   top: 10px;
 }
 .footerWords{

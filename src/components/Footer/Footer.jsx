@@ -53,7 +53,7 @@ function Footer() {
                             
                             </div>
 
-                            <div className="col-12 col-lg-2">
+                            <div className="col-12 col-lg-2 footerLogoPage">
                                 
                                     <div className="col-12 logoFooterImg">
                                         <img className='logoImageFooter' src={grouplogo} alt="Bu joyda rasm bor!" />
