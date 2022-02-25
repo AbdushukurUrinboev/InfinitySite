@@ -69,25 +69,26 @@ return(
                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" className="carouselDot" aria-label="Slide 4"></button>
                    
                  </div>
+                 
                  <div className="carousel-inner carouselInner ">
                    <div className="carousel-item active carousell" data-bs-interval="10000">
                      <div className="carousel-caption d-none d-md-block">
-                       <p className='pHeader'>We change lives thorugh education</p>
+                       <p className='pHeader'>Zamonaviy kasblarni biz bilan o'rganing</p>
                      </div>
                    </div>
                    <div className="carousel-item carousell" data-bs-interval="2000">
                      <div className="carousel-caption d-none d-md-block">
-                       <p className='pHeader'>Zamonaviy kasblarni biz bilan o'rganing</p>
+                       <p className='pHeader'>We change lives thorugh education</p>
                      </div>
                    </div>
                    <div className="carousel-item carousell">
                      <div className="carousel-caption d-none d-md-block">
-                       <p className='pHeader'>Zamonaviy kasblarni biz bilan o'rganing</p>
+                       <p className='pHeader'>Hayotingizni ta'lim orqali o'zgartiramiz</p>
                      </div>
                    </div>
                    <div className="carousel-item carousell">
                      <div className="carousel-caption d-none d-md-block">
-                       <p className='pHeader'>Zamonaviy kasblarni biz bilan o'rganing</p>
+                       <p className='pHeader'>Study modern subjects <br /> with us</p>
                      </div>
                    </div>
                    <button className='mainPageBtnHeader'>Batafsil</button>

@@ -204,13 +204,8 @@
       color: #FFFFFF !important;
       transition: 0.5s;
     }
-    /* .carouselCircle{
-      width: 24px;
-      height: 24px;
-      border-radius: 50%;
-      border: 1px solid #E79215;
-      box-sizing: border-box;
-    } */
+
+    
     
     .carouselDot{
       width: 8px !important;
