@@ -86,7 +86,7 @@ return(
                   </div>
                  
                  <div  className="carousel-inner carouselInner ">
-                   <div className="carousel-item active carousell" data-bs-interval="10000" Infinity={true}>
+                   <div className="carousel-item active carousell" data-bs-interval="10000">
                      <div className="carousel-caption d-none d-md-block">
                        <p className="pHeader sec" id="home">Zamonaviy kasblarni biz bilan o'rganing</p>
                      </div>
