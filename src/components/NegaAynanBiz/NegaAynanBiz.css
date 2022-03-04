@@ -178,6 +178,21 @@
     }
 }
 
+@media screen and (max-width:992px ) {
+    .colForWhyExactlyUs{
+        margin-left: 23% !important;
+    }
+    .seconGridWgyExactlyUs{
+        margin-left: 0% !important;
+    }
+    .basicNameForWhyExactlyUsFile{
+        margin-left: 23%;
+    }
+    .circleOutWhyExactlyUsForResponsive{
+        margin-top: 35%;
+    }
+}
+
 @media only screen and (max-width: 912px) {
     .wrapperForWhyExactlyUs
     .container

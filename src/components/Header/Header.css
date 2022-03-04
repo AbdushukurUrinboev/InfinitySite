@@ -11,29 +11,7 @@
       margin: 0;
       padding: 0;
     }
-    
-    .navbar-ul {
-      height: 100%;
-      width: 500px;
-      margin: 0 auto;
-    }
-    
-    .navbar-li .nav-dropdown {
-      text-decoration: none;
-      font-weight: 700;
-      font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
-    }
-    
-    .navbar-li .nav-dropdown .dropdown-item {
-      text-decoration: none;
-      color: #333 !important;
-    }
-    
-    .navbar-li .nav-link-dropdown {
-      text-decoration: none !important;
-      color: #333 !important;
-    }
-    
+
     .homePage{
       background-image: url(../../assets/headerBg.png);
       background-size: cover;
@@ -283,9 +261,6 @@
       height: 200px;
       margin-bottom: -5rem !important;
     }
-    .container-navbar {
-      background-color: #fff !important;
-    }
     .container-navbar .menu {
       z-index: 10000;
       background-color: #fff;
@@ -301,44 +276,6 @@
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between;
-    }
-    .container-navbar .menu .navbar-collapse .navbar-ul {
-      height: 100%;
-      width: 500px;
-      margin: 0 auto;
-    }
-    .container-navbar .menu .navbar-collapse .navbar-ul r
-    .navbar-li {
-      text-decoration: none;
-      color: #333 !important;
-      font-weight: 700;
-      word-spacing: 20px;
-    }
-    .container-navbar .menu .navbar-collapse .navbar-ul r
-    .navbar-li .navbar-li:hover {
-      border-bottom: 2px blue solid;
-    }
-    .container-navbar .menu .navbar-collapse .navbar-ul r
-    .navbar-li .active-nav {
-      color: #333 !important;
-      font-weight: 700;
-    }
-    .container-navbar .menu .navbar-collapse .navbar-ul r
-    .navbar-li .nav-dropdown {
-      text-decoration: none;
-      color: #333;
-      font-weight: 700;
-      font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
-    }
-    .container-navbar .menu .navbar-collapse .navbar-ul r
-    .navbar-li .nav-dropdown .dropdown-item {
-      text-decoration: none;
-      color: #333 !important;
-    }
-    .container-navbar .menu .navbar-collapse .navbar-ul r
-    .navbar-li .nav-link-dropdown {
-      text-decoration: none !important;
-      color: #333 !important;
     }
     .container-navbar .menu .navbar-collapse .nav-login > button {
       color: white;

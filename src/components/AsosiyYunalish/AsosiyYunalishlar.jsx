@@ -14,7 +14,7 @@ function AsosiyYunalishlar() {
 
                 <div className="mainLineCardSection">
 
-                    <div className="row">
+                    <div className="row asosiyYunalishRow">
                         <div className="col-sm-4 col-md-12 col-lg-4 noneBorderMainLine mainLineFirstCard mainLineFirstCardFirst">
                             <div data-aos="fade-down" className="mainLineFirstCard">
                                 <p className="mainLineProgramming">Dasturlash</p>
@@ -22,14 +22,14 @@ function AsosiyYunalishlar() {
                                 <p className="mainLineView mainLineViewView">Ko'rish</p>
                             </div>
                         </div>
-                        <div className="col-sm-12 col-md-12 col-lg-4 noneBorderMainLine mainLineFirstCard">
+                        <div className="col-sm-12 col-md-12 col-lg-4 noneBorderMainLine mainLineFirstCard mainLineSecondCard">
                             <div data-aos="fade-up" className="mainLineFirstCard">
                                 <p className="mainLineProgramming">Ingiliz tili</p>
                                 <p className="mainLineCourses">Kids, General, IELTS</p> <br />
                                 <p className="mainLineView">Ko'rish</p>
                             </div>
                         </div>
-                        <div className="col-sm-12 col-md-12 col-lg-4 noneBorderMainLine mainLineFirstCard">
+                        <div className="col-sm-12 col-md-12 col-lg-4 noneBorderMainLine mainLineFirstCard mainLineThirdCard">
                             <div data-aos="fade-down" className="mainLineFirstCard">
                                 <p className="mainLineProgramming mainLineProgrammingMath">Matematika</p>
                                 <p className="mainLineCourses">Kichik va Katta yoshdagilar uchun</p> <br />
