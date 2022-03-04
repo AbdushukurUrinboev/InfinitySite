@@ -24,6 +24,11 @@
     text-align: inside;
     background-color: #FFFFFF;
     color: #010409;
+}
+.mainLineSecondCard{
+    margin-left: 2%;
+}
+.mainLineThirdCard{
     margin-left: 2%;
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../../assets/cup.svg';
+import Card from '../../assets/pin.svg';
 import Like from '../../assets/like.svg';
 import Stars from '../../assets/stars.svg';
 import ImageGirle from '../../assets/imageGirle.svg';
@@ -17,13 +17,13 @@ function NegaAynanBiz() {
                         <div data-aos="fade-right" className="col-sm-4 col-md-12 col-lg-4 ">
                             <div>
                                 <span>
-                                    <img src={Card} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">Trusted methods</span>
+                                    <img src={Card} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">Ishonchli metod</span>
                                 </span>
                             </div>
 
                             <div className="whyExactlyUsIcons">
                                 <span>
-                                    <img src={Like} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">Malakali o'qituvchilar</span>
+                                    <img src={Like} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">Malakali ustozlar</span>
                                 </span>
                             </div>
                             <div className="whyExactlyUsIcons">
@@ -47,12 +47,12 @@ function NegaAynanBiz() {
 
                             <div className="whyExactlyUsIcons">
                                 <span>
-                                    <img src={Like} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">Experienced teachers</span>
+                                    <img src={Like} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">Amaliy darslar</span>
                                 </span>
                             </div>
                             <div className="whyExactlyUsIcons">
                                 <span>
-                                    <img src={Stars} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">Extra lessons</span>
+                                    <img src={Stars} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">STEAM darslari</span>
                                 </span>
                             </div>
                         </div>
