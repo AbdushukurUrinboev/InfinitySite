@@ -1,5 +1,6 @@
 import React from 'react';
-import Card from '../../assets/pin.svg';
+import Card from '../../assets/cup.svg';
+import Location from '../../assets/pin.svg';
 import Like from '../../assets/like.svg';
 import Stars from '../../assets/stars.svg';
 import ImageGirle from '../../assets/imageGirle.svg';
@@ -41,7 +42,7 @@ function NegaAynanBiz() {
 
                             <div>
                                 <span>
-                                    <img src={Card} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">Shahar markazida</span>
+                                    <img src={Location} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">Shahar markazida</span>
                                 </span>
                             </div>
 
