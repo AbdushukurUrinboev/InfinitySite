@@ -28,10 +28,8 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
-
     letter-spacing: 0.0168em;
-    font-feature-settings: 'tnum' on, 'lnum' on;
-    
+    font-feature-settings: 'tnum' on, 'lnum' on;    
     color: #000000;
 }
 
@@ -148,7 +146,7 @@
 }
 
 
-/* Media start */
+/*//////////// Media start ////////////*/
 
 @media only screen and (max-width: 821px) {
     .wrapperForWhyExactlyUs
@@ -160,7 +158,6 @@
     {
         width: 411.77px;
         height: 365.69px;
-    
         margin-left: -10% !important;
         margin-top: 10% !important;
     }
@@ -344,33 +341,5 @@
         margin-top: 80%;
     }
 }
-
-
-/* @media only screen and (max-width: 412px) {
-    .wrapperForWhyExactlyUs
-    .container
-    .colForWhyExactlyUs
-    .circleOutWhyExactlyUsWrapperForResponsive
-    .circleOutWhyExactlyUsForResponsive
-    .imgGirlWhyExactlyUsResponsive
-    {
-        width: 411.77px;
-        height: 365.69px;
-    
-        margin-left: -10% !important;
-        margin-top: 15% !important;
-    }
-
-    .seconGridWgyExactlyUs
-    {
-        margin-left: 0% !important;
-    }
-
-    .whyExactlyUsButton
-    {
-        position: absolute;
-        margin-top: 70% !important;
-    }
-} */
 
 /* Media finished */

@@ -21,7 +21,6 @@
     border-radius: 10px;
     border: 1px solid #D1D5DB;
     text-align: inside;
-    /* margin-top: 47px; */
     background-color: #FFFFFF;
     color: #010409;
 }
@@ -30,7 +29,6 @@
 {
     background-color: #E79215;
     color: #FFFFFF;
-    /* transition: 0.5s; */
 }
 .mainLineFirstCard:hover .mainLineCourses{
     color: #FFFFFF;
@@ -59,10 +57,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
-    /* identical to box height */
-    
     color: #010409;
-    
     opacity: 0.6;
 }
 
