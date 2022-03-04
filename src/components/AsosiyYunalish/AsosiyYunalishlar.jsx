@@ -31,6 +31,7 @@ function AsosiyYunalishlar() {
                         </div>
                         <div className="col-sm-12 col-md-12 col-lg-4 noneBorderMainLine mainLineFirstCard mainLineThirdCard">
                             <div data-aos="fade-down" className="mainLineFirstCard">
+
                                 <p className="mainLineProgramming mainLineProgrammingMath">Matematika</p>
                                 <p className="mainLineCourses">Kichik va Katta yoshdagilar uchun</p> <br />
                                 <p className="mainLineView">Ko'rish</p>

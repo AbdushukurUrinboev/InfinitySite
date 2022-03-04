@@ -38,6 +38,7 @@ function NegaAynanBiz() {
 
                         </div>
                         <div data-aos="fade-left" className="col-sm-4 col-md-12 col-lg-4 seconGridWgyExactlyUs">
+
                             <div>
                                 <span>
                                     <img src={Card} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">Shahar markazida</span>
@@ -56,6 +57,7 @@ function NegaAynanBiz() {
                             </div>
                         </div>
                         <div data-aos="fade-left" className="col-sm-4 col-md-12 col-lg-4 circleOutWhyExactlyUsWrapperForResponsive">
+
                             <div className="circ circleOutWhyExactlyUsForResponsive">
                                 <img className="imgGirlWhyExactlyUs imgGirlWhyExactlyUsResponsive" src={ImageGirle} alt="Bu joyda rasm bor!" />
                             </div>

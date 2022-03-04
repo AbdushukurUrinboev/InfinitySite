@@ -68,6 +68,7 @@
     background-color: #E79215 !important;
     color: #FFFFFF !important;
     transition: 0.5s;
+
 }
 
 .whyExactlyUsDotsAll
@@ -144,6 +145,7 @@
     background: #E79215;
     transform: rotate(-180deg);
 }
+
 
 
 /*//////////// Media start ////////////*/
@@ -253,11 +255,10 @@
     .circleOutWhyExactlyUsForResponsive
     .imgGirlWhyExactlyUsResponsive
     {
+        margin-top: 25% !important;
         width: 411.77px;
-        height: 365.69px;
-    
+        height: 365.69px;    
         margin-left: -10% !important;
-        margin-top: 10% !important;
     }
 
     .seconGridWgyExactlyUs
@@ -269,6 +270,51 @@
     {
         position: absolute;
         margin-top: 25% !important;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+
+    .wrapperForWhyExactlyUs
+    .container
+    .colForWhyExactlyUs
+    .circleOutWhyExactlyUsWrapperForResponsive
+    .circleOutWhyExactlyUsForResponsive
+    .imgGirlWhyExactlyUsResponsive
+    {
+        width: 411.77px;
+        height: 365.69px;    
+        margin-left: -10% !important;
+        margin-top: 25% !important;
+    }
+
+    .seconGridWgyExactlyUs
+    {
+        margin-left: 0% !important;
+    }
+
+    .whyExactlyUsButton
+    {
+        position: absolute;
+        margin-top: 55% !important;
+    }
+}
+
+@media only screen and (max-width: 275px) {
+
+    .mainLineFirstCard
+    {
+        width: 100%;
+    }
+
+    .mainLineProgrammingMath
+    {
+        margin-left: 4%;
+    }
+
+    .mainLineViewView
+    {
+        margin-top: -7%;
     }
 }
 
@@ -341,5 +387,33 @@
         margin-top: 80%;
     }
 }
+
+
+/* @media only screen and (max-width: 412px) {
+    .wrapperForWhyExactlyUs
+    .container
+    .colForWhyExactlyUs
+    .circleOutWhyExactlyUsWrapperForResponsive
+    .circleOutWhyExactlyUsForResponsive
+    .imgGirlWhyExactlyUsResponsive
+    {
+        width: 411.77px;
+        height: 365.69px;
+    
+        margin-left: -10% !important;
+        margin-top: 15% !important;
+    }
+
+    .seconGridWgyExactlyUs
+    {
+        margin-left: 0% !important;
+    }
+
+    .whyExactlyUsButton
+    {
+        position: absolute;
+        margin-top: 70% !important;
+    }
+} */
 
 /* Media finished */

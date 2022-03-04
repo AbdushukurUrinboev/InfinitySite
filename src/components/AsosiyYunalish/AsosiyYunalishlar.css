@@ -1,3 +1,4 @@
+
 .mainLineBasicTheme{
     margin-top: 204px;
     font-style: bold;
@@ -75,7 +76,6 @@
     text-decoration-line: underline !important;
 }
 
-
 @media screen and (max-width:992px){
     .asosiyYunalishRow{
         margin-left: 20% !important;
@@ -89,4 +89,5 @@
     .mainLineThirdCard{
         margin-top: 10% !important;
     }
+
 }
