@@ -1,11 +1,11 @@
 import React from "react";
 import './Gallereya.css';
 
-import firstPic from '../../assets/image397.jpg'
-import secondPic from '../../assets/img2.png'
-import thirdPic from '../../assets/image400.jpg'
-import fourthPic from '../../assets/image401.jpg'
-import fifthPic from '../../assets/image402.jpg'
+import firstPic from '../../assets/infinity2.jpg'
+import secondPic from '../../assets/infinity1.jpg'
+import thirdPic from '../../assets/infinity4.jpg'
+import fourthPic from '../../assets/infinity3.jpg'
+import fifthPic from '../../assets/infinity5.jpg'
 
 import AOS from 'aos';
 import "aos/dist/aos.css";
@@ -24,9 +24,9 @@ function Gallereya() {
           <div data-aos="fade-down" className="col-12 col-lg-8 exraPadding cardGallery cardGallery1" >
               <img className='firstPicture' src={firstPic} alt="Bu joyda rasm bor!" />
               <div class="infoGallery">
-                <p>Lorem, ipsum dolor sit amet consectetur 
-                adipisicing elit. Blanditiis sequi laudantium
-                fugiat modi dignissimos quis. welcome to out site</p>
+                <p>Bizda siz yangi kasbni o'rganishingiz yoki yangi ko'nikmalarga ega bo'lishingiz mumkin. 
+                Bizning dasturlarimiz amaliyotga yo'naltirilgan, biz materialning dolzarbligini 
+                kuzatib boramiz va ish va amaliyotda yordam beramiz.</p>
             </div>
           </div>
 
