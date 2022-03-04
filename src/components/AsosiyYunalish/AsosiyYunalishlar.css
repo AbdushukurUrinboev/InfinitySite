@@ -1,4 +1,6 @@
-
+.wrapperForMainLine{
+    margin-top: -25%;
+}
 .mainLineBasicTheme{
     margin-top: 204px;
     font-style: bold;
