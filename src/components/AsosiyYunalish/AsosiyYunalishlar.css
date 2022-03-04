@@ -14,15 +14,17 @@
 .mainLineCardSection{
     margin-top: 47px;
 }
+
 .mainLineFirstCard
 {
-    width: 416px;
+    width: 407px !important;
     height:256px;
     border-radius: 10px;
     border: 1px solid #D1D5DB;
     text-align: inside;
     background-color: #FFFFFF;
     color: #010409;
+    margin-left: 2%;
 }
 
 .mainLineFirstCard :hover
