@@ -14,7 +14,7 @@ function NegaAynanBiz() {
                     <h1 className="basicNameForWhyExactlyUsFile">Nega aynan biz?</h1>
 
                     <div className="row colForWhyExactlyUs">
-                        <div className="col-sm-4 col-md-12 col-lg-4 ">
+                        <div data-aos="fade-right" className="col-sm-4 col-md-12 col-lg-4 ">
                             <div>
                                 <span>
                                     <img src={Card} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">Trusted methods</span>
@@ -33,11 +33,12 @@ function NegaAynanBiz() {
                             </div>
 
                             <div className="whyExactlyUsIcons">
-                                <button type="button" className="btn btn-outline-warning whyExactlyUsButton">Batafsil</button>
+                                <button type="button" className="btn whyExactlyUsButton">Batafsil</button>
                             </div>
 
                         </div>
-                        <div className="col-sm-4 col-md-12 col-lg-4 seconGridWgyExactlyUs">
+                        <div data-aos="fade-left" className="col-sm-4 col-md-12 col-lg-4 seconGridWgyExactlyUs">
+
                             <div>
                                 <span>
                                     <img src={Card} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">Shahar markazida</span>
@@ -55,7 +56,8 @@ function NegaAynanBiz() {
                                 </span>
                             </div>
                         </div>
-                        <div className="col-sm-4 col-md-12 col-lg-4 circleOutWhyExactlyUsWrapperForResponsive">
+                        <div data-aos="fade-left" className="col-sm-4 col-md-12 col-lg-4 circleOutWhyExactlyUsWrapperForResponsive">
+
                             <div className="circ circleOutWhyExactlyUsForResponsive">
                                 <img className="imgGirlWhyExactlyUs imgGirlWhyExactlyUsResponsive" src={ImageGirle} alt="Bu joyda rasm bor!" />
                             </div>

@@ -28,10 +28,8 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
-
     letter-spacing: 0.0168em;
-    font-feature-settings: 'tnum' on, 'lnum' on;
-    
+    font-feature-settings: 'tnum' on, 'lnum' on;    
     color: #000000;
 }
 
@@ -55,14 +53,22 @@
 {
     width: 184px;
     height: 54px;
+    color: #333 !important;
+    background: #FFFFFF !important;
+    border: 1px solid #E79215 !important;
     color: #333333   !important;
     margin-bottom: 45px !important;
-
     font-family: Gilroy;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
+}
+.whyExactlyUsButton:hover{
+    background-color: #E79215 !important;
+    color: #FFFFFF !important;
+    transition: 0.5s;
+
 }
 
 .whyExactlyUsDotsAll
@@ -141,7 +147,9 @@
 }
 
 
-/* Media start */
+
+/*//////////// Media start ////////////*/
+
 @media only screen and (max-width: 821px) {
     .wrapperForWhyExactlyUs
     .container
@@ -152,7 +160,6 @@
     {
         width: 411.77px;
         height: 365.69px;
-    
         margin-left: -10% !important;
         margin-top: 10% !important;
     }
@@ -167,6 +174,21 @@
     {
         position: absolute;
         margin-top: 32% !important;
+    }
+}
+
+@media screen and (max-width:992px ) {
+    .colForWhyExactlyUs{
+        margin-left: 23% !important;
+    }
+    .seconGridWgyExactlyUs{
+        margin-left: 0% !important;
+    }
+    .basicNameForWhyExactlyUsFile{
+        margin-left: 23%;
+    }
+    .circleOutWhyExactlyUsForResponsive{
+        margin-top: 35%;
     }
 }
 
@@ -233,11 +255,10 @@
     .circleOutWhyExactlyUsForResponsive
     .imgGirlWhyExactlyUsResponsive
     {
+        margin-top: 25% !important;
         width: 411.77px;
-        height: 365.69px;
-    
+        height: 365.69px;    
         margin-left: -10% !important;
-        margin-top: 10% !important;
     }
 
     .seconGridWgyExactlyUs
@@ -249,6 +270,51 @@
     {
         position: absolute;
         margin-top: 25% !important;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+
+    .wrapperForWhyExactlyUs
+    .container
+    .colForWhyExactlyUs
+    .circleOutWhyExactlyUsWrapperForResponsive
+    .circleOutWhyExactlyUsForResponsive
+    .imgGirlWhyExactlyUsResponsive
+    {
+        width: 411.77px;
+        height: 365.69px;    
+        margin-left: -10% !important;
+        margin-top: 25% !important;
+    }
+
+    .seconGridWgyExactlyUs
+    {
+        margin-left: 0% !important;
+    }
+
+    .whyExactlyUsButton
+    {
+        position: absolute;
+        margin-top: 55% !important;
+    }
+}
+
+@media only screen and (max-width: 275px) {
+
+    .mainLineFirstCard
+    {
+        width: 100%;
+    }
+
+    .mainLineProgrammingMath
+    {
+        margin-left: 4%;
+    }
+
+    .mainLineViewView
+    {
+        margin-top: -7%;
     }
 }
 

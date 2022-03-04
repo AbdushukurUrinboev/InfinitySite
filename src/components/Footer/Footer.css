@@ -58,6 +58,9 @@ color: #233249;
 opacity: 0.5;
 }
 
+.footerLogoPage{
+  margin-left: 5%;
+}
 
 .footerIcons{
   margin-right: 10%;
@@ -69,7 +72,7 @@ opacity: 0.5;
 }
  .footerNumber{
   position: relative;
-  left: 65%;
+  left: 62%;
   top: 10px;
 }
 .footerWords{
@@ -84,6 +87,10 @@ opacity: 0.5;
 .fooeterFerganaTxDiv{
   margin-top: 24px;
   margin-bottom: 40px;
+  margin-left: 2px;
+}
+.networksFooter{
+  margin-left: 5px;
 }
 
 .footerHr{
@@ -109,6 +116,18 @@ opacity: 0.5;
   }
   .innerFooter{
     max-width: 1140px;
+  }
+  .logoImageFooter{
+    margin-left: -35%;
+  }
+  .fooeterFerganaTxDiv{
+    margin-left: -30%;
+  }
+  .networksFooter{
+    margin-left: -25%;
+  }
+  .footerNumber{
+    margin-left: -10%;
   }
 }
 
@@ -142,8 +161,14 @@ opacity: 0.5;
   .headLine{
     font-size: 30px;
   }
+  .headLineWeb{
+    margin-left: -20%;
+  }
   .headLineEnglish{
-    margin-left: 15%;
+    margin-left: 87%;
+  }
+  .headLineMath{
+    margin-left: 140%;
   }
   .fooeterFerganaTxDiv{
     margin-top: 35px;
@@ -179,12 +204,12 @@ opacity: 0.5;
   }
   .footerWords{
     font-size: 35px;
-    margin-left: 20%;
+    margin-left: -5%;
   }
   .footerNumber{
     font-size: 35px;
-    margin-top: 5px;
-    margin-left: -110%;
+    margin-top: 5px !important;
+    margin-left: -55%;
   }
 }
 

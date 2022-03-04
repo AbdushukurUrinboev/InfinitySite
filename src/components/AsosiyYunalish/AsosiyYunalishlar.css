@@ -1,6 +1,6 @@
-.mainLineBasicTheme
-{
-    /* margin-top: 204px; */
+
+.mainLineBasicTheme{
+    margin-top: 204px;
     font-style: bold;
     font-size: 24px;
     line-height: 100%;
@@ -11,13 +11,16 @@
 {
     border: none !important;
 }
+.mainLineCardSection{
+    margin-top: 47px;
+}
 .mainLineFirstCard
 {
+    width: 416px;
     height:256px;
     border-radius: 10px;
     border: 1px solid #D1D5DB;
     text-align: inside;
-    margin-top: 47px;
     background-color: #FFFFFF;
     color: #010409;
 }
@@ -26,6 +29,15 @@
 {
     background-color: #E79215;
     color: #FFFFFF;
+}
+.mainLineFirstCard:hover .mainLineCourses{
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.mainLineFirstCard:hover .mainLineView
+{
+    color: #FFFFFF;
+    text-decoration-line: underline !important;
 }
 
 .mainLineProgramming
@@ -45,10 +57,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
-    /* identical to box height */
-    
     color: #010409;
-    
     opacity: 0.6;
 }
 
@@ -65,4 +74,20 @@
 .mainLineView:hover
 {
     text-decoration-line: underline !important;
+}
+
+@media screen and (max-width:992px){
+    .asosiyYunalishRow{
+        margin-left: 20% !important;
+    }
+    .mainLineBasicTheme{
+        margin-left: 22%;
+    }
+    .mainLineSecondCard{
+        margin-top: 10% !important;
+    }
+    .mainLineThirdCard{
+        margin-top: 10% !important;
+    }
+
 }
