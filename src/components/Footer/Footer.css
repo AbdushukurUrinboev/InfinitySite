@@ -14,13 +14,15 @@
 }
 
 .bgImggFooter{
-  opacity: 20% !important;
   background-repeat: no-repeat;
   background-position: -160px ;
   background-color: #FEF8F1; 
   height: 520px;
   margin-left: -11%;
   bottom: 0;
+}
+.infinityOpacityFooter{
+  opacity: 10% !important;
 }
 .imgg{
   background-color: #FEF8F1; 
