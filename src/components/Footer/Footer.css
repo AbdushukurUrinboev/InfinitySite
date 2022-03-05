@@ -165,13 +165,14 @@ opacity: 0.5;
     margin-left: -20%;
   }
   .headLineEnglish{
-    margin-left: 87%;
+    margin-left: 5%;
   }
   .headLineMath{
-    margin-left: 140%;
+    margin-left: 10%;
   }
   .fooeterFerganaTxDiv{
-    margin-top: 35px;
+    margin-top: 50px;
+    margin-left: -13%;
   }
   .footerP{
     display: none;
@@ -184,7 +185,8 @@ opacity: 0.5;
     margin-left: 15%;
   }
   .locationLogoFooter{
-    margin-left: 22%;
+    margin-left: 25%;
+    margin-top: -7%;
   }
   .footerIcons{
     width: 40px;
@@ -200,7 +202,7 @@ opacity: 0.5;
     margin-top: 7%;
   }
   .networksFooter{
-    margin-left: 30%;
+    margin-left: 15%;
   }
   .footerWords{
     font-size: 35px;
