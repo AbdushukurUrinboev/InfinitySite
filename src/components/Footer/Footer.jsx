@@ -84,7 +84,7 @@ function Footer() {
                 <hr className="footerHr" />
                 <div className="container">
                     <span className='footerWords'>© 2022. All rights reserved</span>
-                    <span className='footerNumber'>+998 99 633 55 99</span>
+                    <span className='footerNumber'>+998 95 485 70 70</span>
                 </div>
                 
             </div>
