@@ -86,6 +86,9 @@
 }
 
 @media screen and (max-width:992px){
+    .wrapperForMainLine {
+        margin-top: -10%;
+    }
     .asosiyYunalishRow{
         margin-left: 20% !important;
     }
