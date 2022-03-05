@@ -15,7 +15,7 @@ function Footer() {
             <div className="footerWrapper">
             <div className="innerFooter">
             <div data-aos="fade-up" className="imgg">
-                <img className="bgImggg" src={imgggg} alt="" />
+                <img className="bgImggFooter infinityOpacityFooter" src={imgggg} alt="" />
             </div>
 
             <div className="container">
