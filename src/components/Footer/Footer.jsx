@@ -47,7 +47,6 @@ function Footer() {
                                 <p className='smallTexts footerP'>Mental arifmetika</p>
                                 <p className='smallTexts footerP'>Maths for kids</p>
                                 <p className='smallTexts footerP'>Maths for students</p>
-                                
                             </div>
                                 </div>
                             
