@@ -97,9 +97,11 @@
     }
     .mainLineSecondCard{
         margin-top: 10% !important;
+        margin-left: -1%;
     }
     .mainLineThirdCard{
         margin-top: 10% !important;
+        margin-left: -1%;
     }
 
 }
