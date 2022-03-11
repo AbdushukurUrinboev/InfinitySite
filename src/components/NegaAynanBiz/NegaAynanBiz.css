@@ -62,6 +62,7 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
+    margin-left: -80%;
 }
 .whyExactlyUsButton:hover{
     background-color: #E79215 !important;
@@ -172,11 +173,46 @@
 }
 
 @media screen and (max-width:992px ) {
+    .whyExactlyUsCup {
+        margin-left: 5%;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 75px;
+        line-height: 150%;
+        letter-spacing: 0.0168em;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        color: #000000;
+    }
+    .iconsNegaAynanBiz{
+        width: 90px;
+        height: 90px;
+        margin-left: -37%;
+        margin-top: -8%;
+    }
+    .whyExactlyUsButton {
+        width: 410px;
+        height: 120px;
+        font-size: 40px !important;
+        color: #333 !important;
+        background: #FFFFFF !important;
+        border: 1px solid #E79215 !important;
+        color: #333333 !important;
+        margin-bottom: 45px !important;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        margin-top: 10% !important;
+        line-height: 20px;
+        margin-left: -35%;
+    }
     .colForWhyExactlyUs{
         margin-left: 23% !important;
     }
     .seconGridWgyExactlyUs{
         margin-left: 0% !important;
+        margin-top: 30% !important;
     }
     .imgGirlWhyExactlyUs {
         width: 873px;
@@ -185,7 +221,8 @@
         margin-left: -52%;
     }
     .basicNameForWhyExactlyUsFile{
-        margin-left: 23%;
+        margin-left: -2%;
+        font-size: 70px;
     }
     .circleOutWhyExactlyUsForResponsive{
         margin-top: 35%;

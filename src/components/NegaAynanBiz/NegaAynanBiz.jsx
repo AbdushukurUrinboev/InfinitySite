@@ -18,18 +18,47 @@ function NegaAynanBiz() {
                         <div data-aos="fade-right" className="col-sm-4 col-md-12 col-lg-4 ">
                             <div>
                                 <span>
-                                    <img src={Card} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">Ishonchli metod</span>
+                                    <img className='iconsNegaAynanBiz' src={Card} alt="Bu joyda rasm bor!" /> 
+                                    <span className="whyExactlyUsCup">Ishonchli metod</span>
                                 </span>
                             </div>
 
                             <div className="whyExactlyUsIcons">
                                 <span>
-                                    <img src={Like} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">Malakali ustozlar</span>
+                                    <img className='iconsNegaAynanBiz' src={Like} alt="Bu joyda rasm bor!" /> 
+                                    <span className="whyExactlyUsCup">Malakali ustozlar</span>
                                 </span>
                             </div>
                             <div className="whyExactlyUsIcons">
                                 <span>
-                                    <img src={Stars} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">Qo'shimcha darslar</span>
+                                    <img className='iconsNegaAynanBiz' src={Stars} alt="Bu joyda rasm bor!" /> 
+                                    <span className="whyExactlyUsCup">Qo'shimcha darslar</span>
+                                </span>
+                            </div>
+
+                            
+
+                        </div>
+
+                        <div data-aos="fade-left" className="col-sm-4 col-md-12 col-lg-4 seconGridWgyExactlyUs">
+
+                            <div>
+                                <span>
+                                    <img className='iconsNegaAynanBiz' src={Location} alt="Bu joyda rasm bor!" /> 
+                                    <span className="whyExactlyUsCup">Shahar markazida</span>
+                                </span>
+                            </div>
+
+                            <div className="whyExactlyUsIcons">
+                                <span>
+                                    <img className='iconsNegaAynanBiz' src={Like} alt="Bu joyda rasm bor!" /> 
+                                    <span className="whyExactlyUsCup">Amaliy darslar</span>
+                                </span>
+                            </div>
+                            <div className="whyExactlyUsIcons">
+                                <span>
+                                    <img className='iconsNegaAynanBiz' src={Stars} alt="Bu joyda rasm bor!" /> 
+                                    <span className="whyExactlyUsCup">STEAM darslari</span>
                                 </span>
                             </div>
 
@@ -37,25 +66,6 @@ function NegaAynanBiz() {
                                 <button type="button" className="btn whyExactlyUsButton">Batafsil</button>
                             </div>
 
-                        </div>
-                        <div data-aos="fade-left" className="col-sm-4 col-md-12 col-lg-4 seconGridWgyExactlyUs">
-
-                            <div>
-                                <span>
-                                    <img src={Location} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">Shahar markazida</span>
-                                </span>
-                            </div>
-
-                            <div className="whyExactlyUsIcons">
-                                <span>
-                                    <img src={Like} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">Amaliy darslar</span>
-                                </span>
-                            </div>
-                            <div className="whyExactlyUsIcons">
-                                <span>
-                                    <img src={Stars} alt="Bu joyda rasm bor!" /> <span className="whyExactlyUsCup">STEAM darslari</span>
-                                </span>
-                            </div>
                         </div>
                         <div data-aos="fade-left" className="col-sm-4 col-md-12 col-lg-4 circleOutWhyExactlyUsWrapperForResponsive">
 
