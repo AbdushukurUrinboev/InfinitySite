@@ -130,4 +130,8 @@
     width: 960px;
     margin-left: -18% !important; 
   }
+  .toGallerySize{
+    font-size: 70px !important;
+    margin-left: -15%;
+  }
 }
