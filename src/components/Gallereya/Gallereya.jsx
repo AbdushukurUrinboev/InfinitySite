@@ -23,8 +23,8 @@ function Gallereya() {
 
           <div data-aos="fade-down" className="col-12 col-lg-8 exraPadding cardGallery cardGallery1" >
               <img className='firstPicture' src={firstPic} alt="Bu joyda rasm bor!" />
-              <div class="infoGallery">
-                <p>Bizda siz yangi kasbni o'rganishingiz yoki yangi ko'nikmalarga ega bo'lishingiz mumkin. 
+              <div class="infoGalleryFirst">
+                <p className="infoGalleryFirstText">Bizda siz yangi kasbni o'rganishingiz yoki yangi ko'nikmalarga ega bo'lishingiz mumkin. 
                 Bizning dasturlarimiz amaliyotga yo'naltirilgan, biz materialning dolzarbligini 
                 kuzatib boramiz va ish va amaliyotda yordam beramiz.</p>
             </div>

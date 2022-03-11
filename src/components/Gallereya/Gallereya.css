@@ -17,8 +17,8 @@
   .cardGallery:before {
     content: "";
     position: absolute;
-    top: 9px;
-    left: 9px;
+    top: 10px;
+    left: 10px;
     display: block;
     width: 95%;
     height: 93%;
@@ -31,8 +31,8 @@
   .cardGallery1::before{
     content: "";
     position: absolute;
-    top: 9px;
-    left: 9px;
+    top: 10px;
+    left: 10px;
     display: block;
     width: 97% !important;
     height: 93%;
@@ -54,7 +54,29 @@
     left: 10px;
     border-radius: 10px;
   }
+  .cardGallery .infoGalleryFirst{
+    width: 660px !important;
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+  }
+  .cardGallery:hover .infoGalleryFirst{
+    opacity: 1;
+    transform: translateY(2px);
+    transform: translateX(18px);
+  }
+  .cardGallery  .infoGalleryFirstText{
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
   .cardGallery .infoGallery{
+    width: 395px;
     position: relative;
     z-index: 3;
     color: #fff;
@@ -64,14 +86,15 @@
   }
   .cardGallery:hover .infoGallery{
     opacity: 1;
-    transform: translateY(30px);
+    transform: translateY(2px);
+    transform: translateX(18px);
   }
   .cardGallery .infoGallery h1{
     margin: 0;
   }
   .cardGallery .infoGallery p{
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 8px;
     margin-bottom: 20px;
   }
