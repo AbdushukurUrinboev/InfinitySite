@@ -22,7 +22,7 @@
   bottom: 0;
 }
 .infinityOpacityFooter{
-  opacity: 0.2 !important;
+  opacity: 0.03 !important;
 }
 .imgg{
   background-color: #FEF8F1; 
@@ -92,7 +92,7 @@ opacity: 0.5;
   margin-left: 2px;
 }
 .networksFooter{
-  margin-left: 5px;
+  margin-left: 7px;
 }
 
 .footerHr{
@@ -111,6 +111,12 @@ opacity: 0.5;
     max-width: 1320px;
   }
 }
+@media screen and (max-width: 1200px){
+  .fooeterFerganaTxDiv{
+    margin-left: -30%;
+    width: 182px;
+  }
+}
 
 @media screen and (max-width: 1200px){
   .containerWrapper{
@@ -124,6 +130,7 @@ opacity: 0.5;
   }
   .fooeterFerganaTxDiv{
     margin-left: -30%;
+    width: 182px;
   }
   .networksFooter{
     margin-left: -25%;
