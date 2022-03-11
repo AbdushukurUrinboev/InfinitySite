@@ -388,11 +388,15 @@
         margin-top: 5%;
         margin-left: 2%;
     }
+    .imgHomePage {
+      width: 977px;
+      height: 796px;
+    }  
       .imgBgVector{
-        width:501px;
-        height:501px;
+        width: 491px;
+        height: 501px;
         margin-top: 30%;
-        margin-left: 110%;
+        margin-left: 60%;
         z-index: 22 !important;
       }
       .infinityLogo {
@@ -400,11 +404,18 @@
         height: 55px;
         margin-top: -35%;
       }
+      .carousel-inner {
+        height: 500px;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+      }
       .pHeader {
         width: 671px;
-        height: 245px;
+        height: 240px;
         margin-bottom: -6rem !important;
-        margin-left: 10%;
+        margin-left: -10%;
+        font-size: 123px;
       }
       .mainPageImage {
         margin-top: 15%;
@@ -425,8 +436,8 @@
         margin-left: 55% !important;
       }
       .carouselInner > .mainPageBtnHeader {
-        margin-left: 30% !important
-        ;
+        margin-left: 4% !important;
+        margin-top: 60%;
       }
       .headerText{
         font-size: 35px;

@@ -19,7 +19,7 @@ function Gallereya() {
     <div className="ourGallery">
         <div className="container">
         <p className='toGallerySize'>Bizning Gallery</p>
-        <div className="row row-cols-2 row-cols-lg-3">
+        <div className="row row-cols-2 row-cols-lg-3 rowGalleryCards">
 
           <div data-aos="fade-down" className="col-12 col-lg-8 exraPadding cardGallery cardGallery1" >
               <img className='firstPicture' src={firstPic} alt="Bu joyda rasm bor!" />

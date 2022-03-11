@@ -41,10 +41,6 @@ return(
                       </a>
                       <ul className="dropdown-menu headerDropUl" aria-labelledby="navbarDropdown">
                           <li><a className="dropdown-item headerText dropdownText" href="#">IELTS</a></li>
-                          <li><a className="dropdown-item headerText dropdownText" href="#">General English</a></li>
-                          <li><a className="dropdown-item headerText dropdownText" href="#">English for IT</a></li>
-                          <li><a className="dropdown-item headerText dropdownText" href="#">Kids English</a></li>
-                          <li><a className="dropdown-item headerText dropdownText" href="#">Komputer Savodxonligi</a></li>
                           <li><a className="dropdown-item headerText dropdownText" href="#">Web Dasturlash</a></li>
                       </ul>
                     </li>
