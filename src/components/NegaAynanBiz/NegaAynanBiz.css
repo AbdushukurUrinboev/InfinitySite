@@ -44,9 +44,8 @@
 
 .imgGirlWhyExactlyUs
 {
-    width: 397.77px;
-    height: 453.69px;
-    margin-left: -20% !important;
+    width: 500px;
+    height: 500px;
     margin-top: -33% !important;
 }
 .whyExactlyUsButton
@@ -88,7 +87,6 @@
     margin-bottom: -100px;
     z-index: -5 !important;
     margin-top: 9px !important;
-    position: absolute;
     margin-left: -52px !important;
     display: inline-block !important;
 }
@@ -98,7 +96,6 @@
     margin-bottom: -100px;
     z-index: -5 !important;
     margin-top: 18px !important;
-    position: absolute;
     margin-left: -52px !important   ;
     display: inline-block !important;
 }
@@ -108,7 +105,6 @@
     margin-bottom: -100px;
     z-index: -5 !important;
     margin-top: 27px !important;
-    position: absolute;
     margin-left: -52px !important;
     display: inline-block !important;
 }
@@ -118,7 +114,6 @@
     margin-bottom: -100px;
     z-index: -5 !important;
     margin-top: 36px;
-    position: absolute;
     margin-left: -52px !important;
     display: inline-block !important;
 }
@@ -172,7 +167,6 @@
     
     .whyExactlyUsButton
     {
-        position: absolute;
         margin-top: 32% !important;
     }
 }
@@ -214,7 +208,6 @@
 
     .whyExactlyUsButton
     {
-        position: absolute;
         margin-top: 25% !important;
     }
 }
@@ -241,7 +234,6 @@
 
     .whyExactlyUsButton
     {
-        position: absolute;
         margin-top: 30% !important;
     }
 }
@@ -268,7 +260,6 @@
 
     .whyExactlyUsButton
     {
-        position: absolute;
         margin-top: 25% !important;
     }
 }
@@ -295,7 +286,6 @@
 
     .whyExactlyUsButton
     {
-        position: absolute;
         margin-top: 55% !important;
     }
 }
@@ -340,7 +330,6 @@
 
     .whyExactlyUsButton
     {
-        position: absolute;
         margin-top: 55% !important;
     }
 }
@@ -383,37 +372,6 @@
 
     .whyExactlyUsButton
     {
-        position: absolute;
         margin-top: 80%;
     }
 }
-
-
-/* @media only screen and (max-width: 412px) {
-    .wrapperForWhyExactlyUs
-    .container
-    .colForWhyExactlyUs
-    .circleOutWhyExactlyUsWrapperForResponsive
-    .circleOutWhyExactlyUsForResponsive
-    .imgGirlWhyExactlyUsResponsive
-    {
-        width: 411.77px;
-        height: 365.69px;
-    
-        margin-left: -10% !important;
-        margin-top: 15% !important;
-    }
-
-    .seconGridWgyExactlyUs
-    {
-        margin-left: 0% !important;
-    }
-
-    .whyExactlyUsButton
-    {
-        position: absolute;
-        margin-top: 70% !important;
-    }
-} */
-
-/* Media finished */
