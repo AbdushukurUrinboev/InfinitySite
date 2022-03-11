@@ -33,28 +33,28 @@ function Gallereya() {
           <div data-aos="fade-down" className="col-6 col-lg-4 exraPadding cardGallery">
             <img className='secondPic' src={secondPic} alt="Bu joyda rasm bor!" />
             <div class="infoGallery">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit sit amet consectetur </p>
+                <p>We change lives thorugh education </p>
             </div>
           </div>
 
           <div data-aos="fade-up" className="col-6 col-lg-4 exraPadding cardGallery">
             <img className='thirdPic ' src={thirdPic} alt="Bu joyda rasm bor!" />
             <div class="infoGallery">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit sit amet consectetur </p>
+                <p>Study modern subjects with us</p>
             </div>
           </div>
 
           <div data-aos="fade-up" className="col-6 col-lg-4 exraPadding cardGallery">
             <img className='fourthPic ' src={fourthPic} alt="Bu joyda rasm bor!" />
             <div class="infoGallery">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit sit amet consectetur </p>
+                <p>Zamonaviy kasblarni biz bilan o'rganing </p>
             </div>
           </div>
 
           <div data-aos="fade-up" className="col-6 col-lg-4 exraPadding cardGallery">
             <img className='fifthPic ' src={fifthPic} alt="Bu joyda rasm bor!" />
             <div class="infoGallery">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit sit amet consectetur </p>
+                <p>Hayotingizni ta'lim orqali o'zgartiramiz </p>
             </div>
           </div>
 
