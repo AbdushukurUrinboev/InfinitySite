@@ -105,4 +105,70 @@
         margin-left: -1%;
     }
 
+    .mainLineCourses
+{
+    margin-left: 45px;
+    font-style: normal;
+    margin-top: 10% !important;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 22px;
+    color: #010409;
+    opacity: 0.6;
 }
+.mainLineView 
+{
+    font-size: 50px !important;
+}
+
+    .mainLineProgramming
+{
+    margin-top: 40px;
+    margin-left: 45px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 53px;
+}
+
+    .mainLineFirstCard
+    {
+        width: 850px !important;
+        height: 440px !important;
+        margin-left: -20% !important;
+        border-radius: 10px;
+        border: 1px solid #D1D5DB;
+        text-align: inside;
+        background-color: #FFFFFF;
+        color: #010409;
+    }
+
+    .mainLineFirstCard:hover .mainLineView
+{
+    color: #FFFFFF !important;
+    text-decoration-line: underline !important;
+}
+
+.mainLineFirstCard :hover
+{
+    background-color: #E79215 !important;
+    color: #FFFFFF !important;
+}
+.mainLineFirstCard:hover .mainLineCourses{
+    color: #FFFFFF !important;
+    opacity: 0.6;
+}
+
+}
+
+
+/* .mainLineFirstCard {
+    width: 850px !important;
+    height: 440px;
+    margin-left: -19%;
+    border-radius: 10px;
+    border: 1px solid #D1D5DB;
+    text-align: inside;
+    background-color: #FFFFFF;
+    color: #010409;
+} */

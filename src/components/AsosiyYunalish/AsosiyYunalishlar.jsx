@@ -15,21 +15,21 @@ function AsosiyYunalishlar() {
                 <div className="mainLineCardSection">
 
                     <div className="row asosiyYunalishRow">
-                        <div className="col-sm-4 col-md-12 col-lg-4 noneBorderMainLine mainLineFirstCard mainLineFirstCardFirst">
+                        <div className="col-sm-4 col-md-12 col-lg-4 noneBorderMainLine  mainLineFirstCardFirst mainLineFirstCard">
                             <div data-aos="fade-down" className="mainLineFirstCard">
                                 <p className="mainLineProgramming">Dasturlash</p>
                                 <p className="mainLineCourses">Foundation, Frontend, Backend</p> <br />
                                 <p className="mainLineView mainLineViewView">Ko'rish</p>
                             </div>
                         </div>
-                        <div className="col-sm-12 col-md-12 col-lg-4 noneBorderMainLine mainLineFirstCard mainLineSecondCard">
+                        <div className="col-sm-12 col-md-12 col-lg-4 noneBorderMainLine  mainLineSecondCard mainLineFirstCard">
                             <div data-aos="fade-up" className="mainLineFirstCard">
                                 <p className="mainLineProgramming">Ingiliz tili</p>
                                 <p className="mainLineCourses">Kids, General, IELTS</p> <br />
                                 <p className="mainLineView">Ko'rish</p>
                             </div>
                         </div>
-                        <div className="col-sm-12 col-md-12 col-lg-4 noneBorderMainLine mainLineFirstCard mainLineThirdCard">
+                        <div className="col-sm-12 col-md-12 col-lg-4 noneBorderMainLine  mainLineThirdCard mainLineFirstCard">
                             <div data-aos="fade-down" className="mainLineFirstCard">
 
                                 <p className="mainLineProgramming mainLineProgrammingMath">Matematika</p>
