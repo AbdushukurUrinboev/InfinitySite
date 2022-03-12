@@ -10,7 +10,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
     return (
         <div>
-            <Navbar/>
+            {/* <Navbar/> */}
             <Header />
             <AsosiyYunalishlar />
             <NegaAynanBiz />
