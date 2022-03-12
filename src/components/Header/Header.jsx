@@ -19,6 +19,46 @@ return(
     <div className="homePage ">
         <div className="container ">
 
+          {/* Navbar */}
+
+          <div className="menu">
+            <nav className="navbar navbar-expand-lg navbar-light ">
+              <div className="container-fluid navbarHeader">
+                <div className="col-5">
+                  <div className="group10472">
+                    <div className="infinitySymbol1">
+                      <div className="group">
+                        <img src={InfinityLogo} alt="" className="infinityLogo" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button className="navbar-toggler navbarTogler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                  <span className="navbar-toggler-icon"></span>
+                </button>
+                  <div className="navbar-collapse navbarMedia collapse show" id="navbarSupportedContent">
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0 navbarMain">
+                      <li className="nav-item active dropdown">
+                        <a className="nav-link dropdown-toggle headerText coursesHeader" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kurslar</a>
+                        <ul className="dropdown-menu headerDropUl" aria-labelledby="navbarDropdown">
+                          <li><a className="dropdown-item headerText dropdownText" href="#">IELTS</a></li>
+                          <li><a className="dropdown-item headerText dropdownText" href="#">General English</a></li>
+                          <li><a className="dropdown-item headerText dropdownText" href="#">English for IT</a></li>
+                          <li><a className="dropdown-item headerText dropdownText" href="#">Kids English</a></li><li>
+                            <a className="dropdown-item headerText dropdownText" href="#">Komputer Savodxonligi</a></li>
+                            <li><a className="dropdown-item headerText dropdownText" href="#">Web Dasturlash</a></li>
+                        </ul>
+                            </li>
+                            <li className="nav-item"><a class="nav-link headerText aboutUsHeader" href="#">Biz haqimizda</a></li>
+                            <li className="nav-item"><a class="nav-link headerText contactUsHeader" href="#">Aloqa</a></li>
+                            <li className="applyBtnLi"><button class="applyBtn " type="submit">Ro'yxatdan o'tish</button></li>
+                            </ul>
+                    </div>
+              </div>
+            </nav>
+          </div>
+    {/* Navbar */}
+
           <div className="mainPageHeader">
             <div  className="col-6 headerCarousel ">
               <div  id="carouselExampleDark" className="carousel carousel-dark slide carouselHeaderText" data-bs-ride="carousel">

@@ -18,8 +18,9 @@
       background-repeat: no-repeat;
       margin-top: -2%;
     }
+
     
-    /* .navbarHeader{
+    .navbarHeader{
       margin-top: 3%;
      
     }
@@ -95,7 +96,7 @@
     }
     
     .applyBtnLi{
-      margin-left: 50%;
+      margin-left: 45%;
       margin-top: -2%;
     }
     .applyBtn{
@@ -117,7 +118,7 @@
       background: #FFFFFF;
       border: 1px solid #E79215;
       transition: 0.5s;
-    } */
+    }
     
     .mainPageHeader{
       margin-top: 30%;
@@ -399,9 +400,13 @@
         margin-left: 60%;
         z-index: 22 !important;
       }
+      .navbarTogler{
+        margin-top: 12%;
+      }
       .infinityLogo {
-        width: 275px;
-        height: 55px;
+        width: 490px;
+        height: 125px;
+        margin-left: 1%;
         margin-top: -35%;
       }
       .carousel-inner {
@@ -436,6 +441,9 @@
         margin-left: 55% !important;
       }
       .carouselInner > .mainPageBtnHeader {
+        width: 261px;
+        height: 68px;
+        font-size: 28px;
         margin-left: 4% !important;
         margin-top: 60%;
       }
