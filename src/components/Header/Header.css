@@ -16,126 +16,29 @@
       background-image: url(../../assets/headerBg.png);
       background-size: cover;
       background-repeat: no-repeat;
-      margin-top: -2%;
+      margin-top: -31% !important;
     }
 
-    
-    .navbarHeader{
-      margin-top: 3%;
-     
+    .headerContainer{
+      margin-top: 2%;
     }
-    .navbarInfinity{
-      height: 100px;
-    }
-    
-    .infinitySymbol1{
-      width: 67px;
-      height: 0px;
-    }
-    
-    .group10472{
-      margin-left: -10%;
-    }
-    
-    .infinityLogo{
-      width: 275px;
-      height: 55px;
-      margin-top: -63%;
-      margin-left: 155%;
-    }
-    
-    .coursesHeader{
-      font-family: Gilroy;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 20px;
-      line-height: 24px;
-      margin-left: 130%;
-      color: #010409 !important;
-      display: inline-block;
-    }
-    .dropdownText:active{
-      background-color: #E79215 !important;
-    }
-    .headerDropdown{
-      margin-left: 90px !important;
-    }
-    .headerDropUl{
-      margin-top: 5% !important;
-      margin-left: 160%;
-    }
-    .coursesHeader > .dropdownVectorHeader{
-      position: absolute;
-      margin-left: 85% !important;
-      margin-top: -20% !important;
-      cursor: pointer;
-    }
-    
-    .aboutUsHeader{
-      width: 145px ;
-      height: 24px;
-      font-family: Gilroy;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 20px;
-      line-height: 24px;
-      margin-left: 102%;
-      color: #010409 !important;
-      cursor: pointer;
-    }
-    
-    .contactUsHeader{
-      font-family: Gilroy;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 20px;
-      line-height: 24px;
-      margin-left: 245%;
-      color: #010409 !important;
-      cursor: pointer;
-    }
-    
-    .applyBtnLi{
-      margin-left: 45%;
-      margin-top: -2%;
-    }
-    .applyBtn{
-      font-family: Gilroy;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 16px;
-      line-height: 20px;
-      color: #FFFFFF;
-      width: 184px;
-      height: 54px;
-      background: #E79215;
-      border-radius: 4px;
-      margin-left: 15%;
-      border-style: none;
-    }
-    .applyBtn:hover {
-      color: #333333;
-      background: #FFFFFF;
-      border: 1px solid #E79215;
-      transition: 0.5s;
-    }
-    
+
     .mainPageHeader{
       margin-top: 30%;
     }
     
     .carouselHeaderText{
       width: 718px;
-      margin-top: -30%;
+      margin-top: 10% !important;
     }
     
     .headerCarousel{
-      margin-top: 22%;
+      margin-top: 15% !important;
     }
     
     .mainPageImage{
-      margin-top: -33%;
-      margin-left: -5% !important;
+      margin-top: 10% !important;
+      margin-left: -50% !important;
     }
     
     .imgBgVector{
@@ -296,6 +199,31 @@
     
     /* //////////////////////////////////MEDIIIAAAA///////////////////////////////// */
     
+    @media screen and (max-width: 6400px){
+      .homePage{
+        margin-top: -8% !important;
+      }
+      .footerHr{
+        margin-top: -3% !important;
+      }
+      .wrapperForMainLine{
+        margin-top: -7% !important;
+      }
+    }
+
+    @media screen and (max-width: 1777.78px){
+      .homePage {
+        margin-top: -28% !important;
+    }
+
+    }
+
+    @media screen and (max-width: 1600px){
+      .homePage{
+        margin-top: -31% !important;
+      }
+    }
+
     @media screen and (max-width: 1400px){
       .headerContainer {
         max-width: 1320px;
@@ -371,6 +299,10 @@
     }
     
     @media screen and (max-width: 992px){
+      .homePage{
+        margin-top: -37%;
+        width: 100%;
+      }
       .navbarMain{
         margin-left: 5%;
       }
@@ -392,6 +324,8 @@
     .imgHomePage {
       width: 977px;
       height: 796px;
+      margin-top: 110%;
+      margin-left: -68%;
     }  
       .imgBgVector{
         width: 491px;

@@ -179,9 +179,13 @@ opacity: 0.5;
   .headLineMath{
     margin-left: 10%;
   }
+  .fooeterFerganaTxDiv {
+    width: 715px;
+  }
   .fooeterFerganaTxDiv{
     margin-top: 50px;
     margin-left: -13%;
+    width: 715px !important; 
   }
   .footerP{
     display: none;
