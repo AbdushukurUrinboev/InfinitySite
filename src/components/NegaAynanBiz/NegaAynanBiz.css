@@ -173,6 +173,10 @@
 }
 
 @media screen and (max-width:992px ) {
+    .wrapperForWhyExactlyUs{
+        width: 98%;
+        margin-left: -2%;
+    }
     .whyExactlyUsCup {
         margin-left: 5%;
         font-family: Manrope;

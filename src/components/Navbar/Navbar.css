@@ -1,4 +1,3 @@
-
     .navbarHeader{
       margin-top: 3%;
      
@@ -134,3 +133,12 @@
       color: #333333 !important;
       transition: 0.5s;
     }
+
+
+
+
+@media screen and (max-width: 992px){
+  .navbarHeader{
+    margin-top: -6%;
+  }
+}

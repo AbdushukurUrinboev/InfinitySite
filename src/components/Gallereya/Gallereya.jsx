@@ -1,11 +1,11 @@
 import React from "react";
 import './Gallereya.css';
 
-import firstPic from '../../assets/infinity2.jpg'
+import firstPic from '../../assets/sport2.jpg'
 import secondPic from '../../assets/infinity1.jpg'
-import thirdPic from '../../assets/infinity4.jpg'
+import thirdPic from '../../assets/dreamTicket.jpg'
 import fourthPic from '../../assets/infinity3.jpg'
-import fifthPic from '../../assets/infinity5.jpg'
+import fifthPic from '../../assets/infinityNotebook.jpg'
 
 import AOS from 'aos';
 import "aos/dist/aos.css";

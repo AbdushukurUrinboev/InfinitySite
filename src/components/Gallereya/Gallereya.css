@@ -126,6 +126,10 @@
   vertical-align: top !important;
 }
 @media only screen and (max-width: 992px) {
+  .ourGallery{
+    width: 97%;
+    margin-left: 2%;
+  }
   .rowGalleryCards{
     width: 960px;
     margin-left: -18% !important; 

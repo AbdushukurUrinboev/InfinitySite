@@ -12,13 +12,12 @@ const Maps = () =>{
 
                 <Map 
                     defaultState={{
-                        center: [40.3895161,71.7959968],
+                        center: [40.388451, 71.793167],
                         zoom: 15,
                         
                     }}
-                    // style={{color:'green'}}
                 >
-                <Placemark geometry={[40.3895161,71.7959968]} />
+                <Placemark geometry={[40.388451, 71.793167]} />
                 <FullscreenControl options={{ float: 'left'}} />
                 <GeolocationControl options={{ float: 'right'}} />
                 <TrafficControl options={{float: 'right'}} />

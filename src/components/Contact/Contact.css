@@ -62,6 +62,10 @@
   transition: 0.5s;
 }
 
+.commentArea{
+  height: 120px !important;
+}
+
 .column {
   -webkit-box-flex: 50%;
       -ms-flex: 50%;

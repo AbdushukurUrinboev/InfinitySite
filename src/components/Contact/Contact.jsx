@@ -78,7 +78,7 @@ const  [contact, setContact] = useState({
 
                     
                       <div class="form-floating">
-                        <textarea class="form-control message-box" 
+                        <textarea class="form-control message-box commentArea" 
                         name="message"
                         onChange={changeHandle}
                         value={contact.message}
