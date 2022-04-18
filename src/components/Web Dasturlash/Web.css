@@ -286,9 +286,12 @@ color: #000000;
 
 /* ///////////////Start Media Query//////////*/
 
-@media screen and (min-width: 480px) {
-  .webBtns
-{
+@media screen and (max-width: 992px) {
+  .webBtns{
   margin-bottom: 50px;
-}
+  }
+  
+  .webSecondImg{
+    margin-top: 31px !important;
+  }
 }
