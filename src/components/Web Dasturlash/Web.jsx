@@ -63,7 +63,7 @@ function Web() {
                     </div>
                   </div>
                   <div class="col">
-                    <img className='webSecondImg webThirdImg' src={webImg3} alt="Bu joyda rasm bor!" zindex={-55} />
+                    <img className=' webThirdImg' src={webImg3} alt="Bu joyda rasm bor!" zindex={-55} />
                   </div>
                 </div>
               </div>
@@ -117,19 +117,19 @@ function Web() {
                     <div className="webInputForm">
                       <form class="w3-container">
 
-                        <label className='webLabelsStyle'>Name:</label>
+                        {/* <label className='webLabelsStyle'>Name:</label> */}
                         <br />
-                        <input class="w3-input webInputsStyle" type="text" />
-                        <br />
-
-                        <label className='webLabelsStyle'>Number: +998 |</label>
-                        <br />
-                        <input class="w3-inpu webInputsStyle" type="text" />
+                        <input class="w3-input webInputsStyle" placeholder='Name:' type="text" />
                         <br />
 
-                        <label className='webLabelsStyle'>E-mail:</label>
+                        {/* <label className='webLabelsStyle'>Number: +998 |</label> */}
                         <br />
-                        <input class="w3-input webInputsStyle" type="text" />
+                        <input class="w3-inpu webInputsStyle" placeholder='Number: +998 |' type="text" />
+                        <br />
+
+                        {/* <label className='webLabelsStyle'>E-mail:</label> */}
+                        <br />
+                        <input class="w3-input webInputsStyle" placeholder='E-mail:' type="text" />
                         <br />
 
                         <button className='webSendButtonInsideContactPart'>Send</button>
