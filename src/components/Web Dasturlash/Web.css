@@ -263,6 +263,7 @@ color: #000000;
   border: unset;
   /* opacity: 0.2; */
   color: #000000 !important;
+  outline: none;
   border-bottom: 1px solid #c2bfbf;
 }
 
